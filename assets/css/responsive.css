@@ -1,0 +1,27 @@
+@media screen and (max-width: 850px) {
+    ul#main-menu {
+        display: none !important;
+    }
+    .menu_responsive {
+        display: inline-block;
+    }
+    #header .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #list_product {
+        justify-content: center;
+    }
+    #search {
+        width: 70%;
+    }
+    /*
+    nav {
+        width: 100%;
+    }*/
+    #search input {
+        width: 100%;
+    }
+}
